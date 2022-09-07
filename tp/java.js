@@ -41,3 +41,14 @@ function imprimir() {
 document.getElementById("btn").addEventListener("click", imprimir);
 
 
+function mostrar_lista_cripto(){
+    let filas=[]
+    criptos.forEach((element,indice) => {
+        let fila=`
+            <li class="list-group-item">${element}</li>
+        `
+        filas.push(fila)
+    });
+    document.getElementById("lista_criptos").innerHTML=filas.join('')
+}
+document.getElementById("btn_crear_lista").addEventListener("click",mostrar_lista_cripto)
