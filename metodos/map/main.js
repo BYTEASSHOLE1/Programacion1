@@ -20,11 +20,3 @@ let datos_personales = [
 
 let nombre_apellido = datos_personales.map( element => element.nombre + " " + element.apellido);
 console.log(nombre_apellido);
-
-
-// filter 
-let helados = ['Banana Split', 'Menta Granizada', 'Cereza', 'Dulce de Leche', 'Granizado', 'Pistacho'];
-
-helados.filter( element => {
-    return element.length > 9;
-})
