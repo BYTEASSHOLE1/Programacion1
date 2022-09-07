@@ -28,7 +28,7 @@ export default class Crypto{
             <td><img src="${element.image}" alt="" style="width:25px; height:25px;"></img></td>
             <td> ${element.name}</td>
             <td> ${element.symbol}</td>
-            <td> ${element.current_price}</td>
+            <td> ${element.current_price}</td> 
             <td> ${element.total_volume}</td>
             </tr>
 
